@@ -3,17 +3,19 @@
 Program to fetch twitter messages, analyse the word counts and visualize them with a word cloud
 
 ## Requirements
-The program is writte in Python3 with the following externeral packages:
+The program is writte in Python3 with the following (externeral) packages:
 
-twitter-api
-tweepy
-yaml
-stop_words
-langid
-sqlite3
+* twitter-api
+* tweepy
+* yaml
+* stop_words
+* langid
+* sqlite3
+* collections
 
 ### Change settings
-The application uses serveral settings such as database name, seach key words etc which can be easily changed in the settings file present in the project.
+The application uses serveral settings such as database name, search key words etc which can be easily changed in the settings file present in the project.
+
 Open config.yaml and change the setting.
 
 ## Run the program
@@ -21,9 +23,9 @@ Open config.yaml and change the setting.
 The following steps need to be done to run the programm
 
 Check the config.yaml and change the following:
-    twitter keys with your own keys
-    required filte key words
-    required names for the raw database and the clean database
+* twitter keys with your own keys
+* required filter key words
+* required names for the raw database and the clean database
 
 after the configuration the program needs to download some tweets. This might take some time
 and you might need to restart the program several times.
