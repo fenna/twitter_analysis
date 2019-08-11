@@ -55,3 +55,7 @@ by the command line command open tword.htm a word cloud is depicted
 
 ## Author
 * Fenna Feenstra
+
+## Acknowledge
+
+This project is derived from concepts published by dr Chuck http://www.dr-chuck.com
