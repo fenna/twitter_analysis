@@ -4,7 +4,7 @@ Program to fetch twitter messages, analyse the word counts and visualize them wi
 
 ## Overview
 
-[![program model](https://github.com/fenna/twitter_analysis/schema.png)]
+![Workflow overview](schema.png)
 
 ## Requirements
 The program is writte in Python3 with the following (externeral) packages:
