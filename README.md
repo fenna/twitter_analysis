@@ -2,6 +2,10 @@
 
 Program to fetch twitter messages, analyse the word counts and visualize them with a word cloud
 
+## Overview
+
+[![program model](https://github.com/fenna/twitter_analysis/schema.png)]
+
 ## Requirements
 The program is writte in Python3 with the following (externeral) packages:
 
